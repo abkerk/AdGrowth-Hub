@@ -1,0 +1,49 @@
+/**
+ * AdGrowth Hub - Core Stylesheet
+ * Clean, modern, SaaS startup styling with professional green accents (#059669 / #10B981)
+ */
+
+:root {
+  --color-primary: #059669;
+  --color-primary-hover: #047857;
+  --color-text-dark: #0f172a;
+  --color-text-muted: #64748b;
+  --color-bg-light: #fafafa;
+  --color-card-bg: #ffffff;
+  --color-border: #e2e8f0;
+  --radius-card: 16px;
+  --radius-btn: 10px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-light);
+  line-height: 1.6;
+}
+
+.service-card {
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.cta-button {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-radius: var(--radius-btn);
+  font-weight: 700;
+  transition: background-color 0.15s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button:hover {
+  background-color: var(--color-primary-hover);
+}

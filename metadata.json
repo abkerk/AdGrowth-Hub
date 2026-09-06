@@ -1,0 +1,6 @@
+{
+  "name": "AdGrowth Hub",
+  "description": "Find the right expert to grow your business with Meta Ads. Independent recommendations for Facebook Ads, Instagram Ads, and lead generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
